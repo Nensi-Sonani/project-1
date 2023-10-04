@@ -10,9 +10,12 @@ const Login = () => {
         axios.get(` http://localhost:9999/user?email${email}`)
         .then((res)=>{
             console.log(res.data);
-            if(res.data[0].email===email && res.data[0].password===password){
-                alert("login successfully");
-            }
+            // if(res.data[0].email===email && res.data[0].password===password){
+            //     alert("login successfully");
+            // }
+            // else{
+            //     alert("login failed");
+            // }
         })
         .catch((err)=>{
             console.log(err);
