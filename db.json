@@ -5,6 +5,18 @@
       "email": "nensi@gmail.com",
       "password": "123456",
       "id": 1
+    },
+    {
+      "name": "nensi",
+      "email": "nrsonani13@gmail.com",
+      "password": "1234560",
+      "id": 2
+    },
+    {
+      "name": "nensi",
+      "email": "nrsonani13@gmail.com",
+      "password": "123",
+      "id": 3
     }
   ]
 }
