@@ -405,3 +405,53 @@ footer p{
   cursor: pointer;
 }
 
+/* products */
+
+.product-map{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding-top: 80px;
+  /* background-color: #d0d1d2; */
+  /* margin: 20px; */
+}
+
+.product-main img{
+  width: 420px;
+  height: 400px;
+}
+
+/* cart page  */
+
+.main-cart img{
+  width: 420px;
+  height: 400px;
+}
+
+.cart-map{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding-top: 80px;
+}
+
+.singlepage-texts{
+  width: 50%;
+  margin-left: 20px;
+}
+
+.singlepage-image{
+  width: 88%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.singlepage-image img{
+  height: 80vh;
+  width: 100%;
+}
+
+.main-single{
+  padding-top: 80px;
+}

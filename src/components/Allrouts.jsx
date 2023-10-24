@@ -9,8 +9,10 @@ import Shop from '../pages/Shop'
 import Support from '../pages/Support'
 import LSToggle from '../pages/LSToggle'
 import Product from '../pages/Product'
+import SinglePage from '../pages/SinglePage'
+import Cart from '../pages/Cart'
 
-const Allrouts = () => {
+const Allrouts = (e) => {
   return (
     <div>
         <Routes>
@@ -24,9 +26,12 @@ const Allrouts = () => {
             <Route path='/network'/>
             <Route path='/SignuporLogin' element={<LSToggle/>}/>
             <Route path='/product' element={<Product/>}/>
+            <Route path='/cart' element={<Cart/>}/>
+            <Route path='/product/:id' element={<SinglePage/>}/>
         </Routes>
     </div>
   )
 }
+
 
 export default Allrouts

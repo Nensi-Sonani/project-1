@@ -21,6 +21,7 @@ const Nav = () => {
         <Link to="/Charging" className='nav-text text-white text-decoration-none me-5'>Charging</Link>
         <Link to="/Discover" className='nav-text text-white text-decoration-none me-5'>Discover</Link>
         <Link to="/Shop" className='nav-text text-white text-decoration-none me-5'>Shop</Link>
+        <Link to="/cart" className='nav-text text-white text-decoration-none me-5'>Cart</Link>
         </div>
         <div className='nav-div-3'>
             <Link to='/support' className='me-3 text-white'>
