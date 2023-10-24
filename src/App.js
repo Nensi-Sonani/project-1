@@ -1,11 +1,13 @@
 
 import './App.css';
-import LSToggle from './pages/LSToggle';
+import Allrouts from './components/Allrouts';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <LSToggle/>
+      <Nav/>
+      <Allrouts/>
     </div>
   );
 }

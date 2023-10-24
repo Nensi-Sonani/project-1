@@ -5,6 +5,63 @@
       "email": "nensi@gmail.com",
       "password": "123456",
       "id": 1
+    },
+    {
+      "name": "nensi",
+      "email": "nrsonani13@gmail.com",
+      "password": "1234560",
+      "id": 2
+    },
+    {
+      "name": "nensi",
+      "email": "nrsonani13@gmail.com",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "title": "Model S All-Weather Interior Liners",
+      "price": "250",
+      "image": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/studio/CAR_ACCESSORIES/MODEL_S/INTERIOR/1669541-00-A_0_2000.jpg",
+      "image1": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1669541-00-A_1_2000.jpg",
+      "image2": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1669541-00-A_2_2000.jpg",
+      "image3": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1669541-00-A_3_2000.jpg",
+      "image4": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1669541-00-A_4_2000.jpg",
+      "Description": "Model S All-Weather Interior Liners are made from a thermoplastic elastomer material with a strong rigid core for extreme-duty protection and spatial coverage. Unlike traditional floor mats, Model S All-Weather Interior Liners are comprised of vertical walls that offer maximum protection to the footwell carpet and easy cleanup. Created with an exclusive pattern by Tesla Design Studio, these liners are custom-made using the latest digital measurements for Model S.",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "title": "Model S Plaid Track Package",
+      "price": "15000-20000",
+      "image": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/studio/CAR_ACCESSORIES/MODEL_S/WHEELS_TIRES/1938526-00-A_1_2000.jpg",
+      "image1": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/studio/CAR_ACCESSORIES/MODEL_S/WHEELS_TIRES/1938526-00-A_0_2000.jpg",
+      "image2": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/studio/CAR_ACCESSORIES/MODEL_S/WHEELS_TIRES/1940002-00-A_0_2000.jpg",
+      "image3": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/WHEELS_TIRES/1940002-00-A_2_2000.jpg",
+      "image4": "https://digitalassets-shop.tesla.com/video/upload/f_auto,q_auto/v1/content/dam/tesla/wh8j40z2bngvbsluun2q.mp4",
+      "Description": "Designed for the ultimate track experience, the Model S Plaid Track Package delivers high-speed stability, maximum cornering force and repeatable stopping power during high-performance driving while unlocking a top speed of 200 mph.",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "title": "Model S/X Steering Wheel Retrofit",
+      "price": "700",
+      "image": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1916503-00-A_0_2000.jpg",
+      "image1": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1916503-00-A_02_2000.jpg",
+      "image2": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1916503-00-A_3_2000.jpg",
+      "Description": "Travel in luxury. Enjoy the warmth of a heated wheel and the touch of premium vegan leather in a traditional form factor. No stalks or shifters. Note: This retrofit is only compatible with Model S and Model X vehicles configured with a Yoke Steering Wheel. Purchase price includes installation through Tesla Service.",
+      "count": 1
+    },
+    {
+      "id": 10,
+      "title": "Model S Key Fob",
+      "price": "175",
+      "image": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/studio/CAR_ACCESSORIES/MODEL_S/INTERIOR/1819443-00-A_0_2000.jpg",
+      "image1": "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1819443-00-A_1_2000.jpg",
+      "Description": "Constructed from lightweight mesh fabric with a collapsible rigid frame, the Model S Glass Roof Sunshade blocks 66 percent of luminous transmittance. Easily removable, the sunshade is installed onto the interior of the glass roof with provided clips. When removed, the shade collapses and can be stored in the included zippered pouch.",
+      "count": 1
     }
   ]
 }
