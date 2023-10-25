@@ -11,20 +11,32 @@ const Product = () => {
         dispatch(teslaapiFetching)
     }, []);
     return (
+        <div>
+        <div className='p-head'>
+                        <h3> 
+                        Model S
+                        </h3>
+                        <h4>
+                        Best Sellers
+                        </h4>
+                    </div>    
         <div className='product-map container'>
+                        
             {
                data.map((e)=>{
                   return(
                      <div key={e.id} className='product-main'>
-                        <Link className='product-link' to={`./${e.id}`}>
+                        <Link className='product-link text-decoration-none' to={`./${e.id}`}>
                         <img src={e.image} alt="" />
                         <h3 className='mt-3'>{e.title}</h3>
                         <p className='fw-bold'>${e.price}</p>
                         </Link>
                      </div>
+                     
                   )
                })
             }
+        </div>
         </div>
     )
 }
