@@ -17,6 +17,46 @@ nav{
 
 /* home page  */
 
+  .sec-1 .v-1 h3{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .sec-1 .v-1 p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+ .sec-1-btn{
+  bottom: 20%;
+  width: 100%;
+ }
+
+ .sec-1-btn .b1{
+    background-color: #222221cc;
+    width:16%;
+    border-radius: 10px;
+    font-weight: 600;
+ }
+ .sec-1-btn .b2{
+  background-color: #ffffffa6;
+  width:16%;
+  border-radius: 10px;
+  font-weight: 600;
+ }
+
+ .sec1-p{
+  /* font-size: 12px; */
+  font-weight: 400;
+  bottom: 15%;
+  width: 100%;
+ }
+
+ /* .sec-1 video{
+  height: 100vh;
+  width: 100%;
+ } */
+
+
   .sec-2{
     background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-NA.jpg');
     width: 100%;
@@ -43,7 +83,6 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
   }
-
 
   .sec-6{
     background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/425_HP_SolarPanels_D');
@@ -530,6 +569,6 @@ footer p{
 
 .v-1{
   top: 18%;
-  left: 50%;
+  left: 45%;
   color: white;
 }
