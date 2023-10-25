@@ -514,14 +514,22 @@ footer p{
 }
 
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-  margin-bottom: 0px;
+  margin-bottom: -13px;
 }
 
 .product-link{
   color: black;
 }
-
+.color-black{
+  color: black;
+}
 .product-link h3,p{
   font-size: 14px;
   font-weight: 700;
+}
+
+.v-1{
+  top: 18%;
+  left: 50%;
+  color: white;
 }

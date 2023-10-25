@@ -92,7 +92,7 @@ const Shop = () => {
           <div className="shop-sec-3-img d-flex justify-content-center align-items-center">
             <div className="shop-sec-3-contain text-center">
               <h2>Model S Accessories</h2>
-              <button className='m-2 py-2 btn2'><Link to={'/product'} className='text-decoration-none'>Shop Now</Link></button>
+              <button className='m-2 py-2 btn2'><Link to={'/product'} className='text-decoration-none color-black'>Shop Now</Link></button>
             </div>
           </div>
         </div>

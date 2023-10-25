@@ -6,9 +6,13 @@ const Home = () => {
   return (
     <div className='home'>
 
-      <div className='sec-1'>
+      <div className='sec-1 position-relative'>
         <video src="https://digitalassets.tesla.com/tesla-contents/video/upload/Homepage-Model-Y-Desktop-NA.mp4" loop controls autoPlay className='w-100 m-0'>
         </video>
+        <div className="position-absolute v-1">
+          <h3 className='text-center'>Model Y</h3>
+          <p className='text-center'>Lease starting at $399/mo*</p>
+        </div>
       </div>
       <div className='sec-2 d-flex justify-content-between flex-column'>
         <div className='img-text-1 pt-5'>
