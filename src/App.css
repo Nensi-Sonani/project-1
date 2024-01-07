@@ -121,10 +121,10 @@ nav{
  .f-18{
   font-size: 18px;
  }
- p {
+ /* p {
   margin-top: 0;
   margin-bottom: 0 !important;
-}
+} */
 
 .m-15{
   margin: 15px;
@@ -697,3 +697,35 @@ footer p{
  padding-top: 370px;
 }
 
+.w-35{
+  width: 40%;
+  padding: 15px;
+}
+
+.w-65{
+  width: 60%;
+  padding: 15px;
+}
+
+.sec6-p{
+  font-weight: 500 !important;
+  padding-top: 24px;
+}
+
+.sb1{
+  border: 2px solid #000;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+.sb1:hover{
+  background-color: black;
+  color: white;
+}
+.sb2{
+  font-weight: 600;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+.sb2:hover{
+  background-color: #22222121;
+}

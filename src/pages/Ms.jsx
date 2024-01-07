@@ -138,16 +138,16 @@ const Ms = () => {
       <div className="sec6-ms">
        <div className="container">
        <div className="d-flex">
-       <div className="ms-p1 w-50">
+       <div className="ms-p1 w-35">
           <p className='mt-4'>Plaid</p>
           <h3 className='mt-2'>Beyond Ludicrous</h3>
           <div className="d-flex">
-          <button className='b1 border border-none me-2 py-2  mt-4 text-white'>Order Now</button>
-          <button className='b2 border border-none ms-2 py-2 mt-4'>Demo Drive</button>
+          <button className='sb1 me-2 py-2 px-5 mt-4'>Order Now</button>
+          <button className='sb2 border border-none px-5 ms-2 py-2 mt-4'>Demo Drive</button>
         </div>
         </div>
-        <div className="ms-p1">
-          <p>
+        <div className="ms-p1 w-65">
+          <p className='sec6-p'>
           Model S Plaid has the quickest acceleration of any vehicle in production. Updated battery architecture for all Model S trims enables back-to-back track runs without performance degradation. Chat with a Tesla Advisor to learn more about Model S or schedule a demo drive today.
           </p>
         </div>
