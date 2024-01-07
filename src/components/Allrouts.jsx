@@ -12,8 +12,8 @@ import Product from '../pages/Product'
 import SinglePage from '../pages/SinglePage'
 import Cart from '../pages/Cart'
 import Ms from '../pages/Ms'
-import Modelx from '../pages/Modelx'
-import Model3 from '../pages/Model3'
+// import Modelx from '../pages/Modelx'
+// import Model3 from '../pages/Model3'
 
 const Allrouts = (e) => {
   return (
