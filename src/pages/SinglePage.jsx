@@ -20,30 +20,35 @@ const SinglePage = () => {
     console.log(user);
     const { id } = useParams()
     console.log(id);
+    
     useEffect(() => {
-        axios.get(`https://tesla-api.onrender.com/productpage-1/${id}`)
-            .then((res) => {
-                setData(res.data)
-            })
-            .catch((err) => {
-                console.log(err);
-            })
-    }, []);
+        const fetchData = async () => {
+            try {
+                const response = await axios.get(`https://tesla-api.onrender.com/productpage-1/${id}`);
+                setData(response.data);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    }, [id]);
+
     const handleClick = () => {
-        let obj = {
+        const obj = {
             ...data,
             count: 1,
             userID: user.id
-        }
-        console.log(obj);
-        axios.post("http://localhost:9999/cart", obj)
+        };
+
+        axios.post('http://localhost:9999/cart', obj)
             .then((res) => {
                 console.log(res.data);
             })
             .catch((err) => {
                 console.log(err);
-            })
-    }
+            });
+    };
     return (
         <div className='main-single d-flex w-100 container'>
 

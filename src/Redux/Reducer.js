@@ -4,7 +4,7 @@ const initial={
     user:null,
     isSignup:false
 }
- const reducer=(state=initial,action)=>{
+const reducer=(state=initial,action)=>{
     switch(action.type){
         case LOGIN :
             return{
