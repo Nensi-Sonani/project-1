@@ -15,6 +15,7 @@ const Login = ({ setToggle, toggle }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         axios.get(` http://localhost:9999/user?email${email}`)
+
             .then((res) => {
                 console.log(res.data);
                 // if (res.data[0].email === email && res.data[0].password === password) {
