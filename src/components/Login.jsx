@@ -5,20 +5,20 @@ import '../App.css';
 import { useDispatch, useSelector } from 'react-redux';
 
 
-const Login = ({setToggle,toggle}) => {
+const Login = ({ setToggle, toggle }) => {
     let [email, setEmail] = useState('');
     let [password, setPassword] = useState('');
 
-    const val =useSelector(store=>store)
-    const dispatch=useDispatch()
- 
+    const val = useSelector(store => store)
+    const dispatch = useDispatch()
+
     const handleSubmit = (e) => {
         e.preventDefault();
         axios.get(` http://localhost:9999/user?email${email}`)
             .then((res) => {
                 console.log(res.data);
                 // if (res.data[0].email === email && res.data[0].password === password) {
-                    // alert("login successfully");
+                // alert("login successfully");
                 // }
                 // else {
                 //     alert("login failed");
@@ -54,10 +54,10 @@ const Login = ({setToggle,toggle}) => {
                             <div className="card cascading-right" >
                                 <div className="card-body p-5 shadow-5 text-center">
                                     <h2 className="fw-bold mb-5">Login Now</h2>
-                                    <form  onClick={handleSubmit}>
+                                    <form onClick={handleSubmit}>
 
                                         <div className="form-outline mb-4">
-                                            <input type="email" id="form3Example3" className="form-control" placeholder='Enter Yore Email' onChange={(e) => setEmail(e.target.value)}/>
+                                            <input type="email" id="form3Example3" className="form-control" placeholder='Enter Yore Email' onChange={(e) => setEmail(e.target.value)} />
                                             <label className="form-label" htmlFor="form3Example3">Email address</label>
                                         </div>
 
@@ -71,7 +71,7 @@ const Login = ({setToggle,toggle}) => {
                                             Login
                                         </button>
 
-                                        <p onClick={()=>setToggle(!toggle)}>Sign Up</p>
+                                        <p onClick={() => setToggle(!toggle)}>Sign Up</p>
 
                                     </form>
                                 </div>

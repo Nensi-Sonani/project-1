@@ -1,33 +1,34 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
-const Cart = () => {
-    let [data,setData]=useState([]);
+const Cart = (id) => {
+    const [data, setData] = useState([]);
 
-    useEffect(()=>{
-        axios.get(" http://localhost:9999/cart")
-        .then((res)=>{
-            console.log(res.data);
-            setData(res.data);
-        })
-        .catch((err)=>{
-            console.log(err);
-        })
-    },[])
-  return (
-    <div className='cart-map container'>
-        {
-            data.map((e)=>{
-                return(
-                    <div className='main-cart'>
-                     <img src={e.image} alt="" />
-                     <h2>{e.title}</h2>
-                    </div>
-                )
+    useEffect(() => {
+        axios.get(`http://localhost:9999/cart${id}`)
+            .then((res) => {
+                console.log(res.data);
+                setData(res.data);
             })
-        }
-    </div>
-  )
-}
+            .catch((err) => {
+                console.log(err);
+            });
+    }, []);
 
-export default Cart
+    return (
+        <div className='cart-map container'>
+            {data.length > 0 ? (
+                data.map((item, index) => (
+                    <div key={index} className='main-cart'>
+                        <img src={item.image} alt={item.title} />
+                        <h2>{item.title}</h2>
+                    </div>
+                ))
+            ) : (
+                <p>No items in the cart</p>
+            )}
+        </div>
+    );
+};
+
+export default Cart;

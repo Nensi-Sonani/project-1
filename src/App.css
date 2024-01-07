@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* nav  */
 
 .logo img{
@@ -6,13 +12,60 @@
 
 nav{
     background-position: absolute;
-    position: fixed;
+    position: absolute;
     width: 97%;
     z-index: 999;
 }
 
-.main-nav{
+/* .main-nav{
     background-color: rgba(50, 46, 41, 0.667);
+} */
+
+
+.dropdown{
+    position: relative;
+  }
+  .dropdown-content {
+    width: 1519px;
+    height: 50vh;
+    /* display: none; */
+    position: absolute;
+    top: -50px;
+    left: -479px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 20px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+    z-index: -1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  height: 75vh;
+  top: 50px;
+}
+.models{
+  margin: 50px;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-text{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdown-content img{
+    width: 200px;
+    height: 130px;
 }
 
 /* home page  */
@@ -21,10 +74,10 @@ nav{
     font-size: 40px;
     font-weight: 500;
   }
-  .sec-1 .v-1 p{
+  /* .sec-1 .v-1 p{
     font-size: 20px;
     font-weight: 400;
-  }
+  } */
 
  .sec-1-btn{
   bottom: 20%;
@@ -47,14 +100,44 @@ nav{
  .sec1-p{
   /* font-size: 12px; */
   font-weight: 400;
-  bottom: 15%;
+  bottom: 10%;
   width: 100%;
  }
 
- /* .sec-1 video{
-  height: 100vh;
+ video{
+  /* height: 100vh; */
   width: 100%;
- } */
+ }
+
+ .f-13{
+  font-size: 13px;
+ }
+ .f-14{
+  font-size: 14px;
+ }
+ .f-20{
+  font-size: 20px;
+ }
+ .f-18{
+  font-size: 18px;
+ }
+ /* p {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+} */
+
+.m-15{
+  margin: 15px;
+}
+.f-24{
+  font-size: 24px;
+}
+.f-12{
+  font-size: 12px;
+}
+.f-32{
+  font-size: 32px;
+}
 
 
   .sec-2{
@@ -64,6 +147,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -7px;
   }
 
   .sec-3{
@@ -91,6 +175,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -7px;
   }
 
   .sec-7{
@@ -269,6 +354,13 @@ nav{
   object-fit: cover;
 }
 
+.swiper-android .swiper-slide, .swiper-ios .swiper-slide, .swiper-wrapper {
+  transform: translate3d(0px, 0, 0);
+  padding-bottom: 50px;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  margin-bottom: 10px !important;
+}
 /* .slider-img{
   background-image: url("");
   background-position: center;
@@ -571,4 +663,69 @@ footer p{
   top: 18%;
   left: 45%;
   color: white;
+}
+
+/* section for models */
+
+.sec2-ms{
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Model-S-Interior-Hero-Desktop-LHD");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  background: black !important;
+}
+.bg-black{
+  background-color: black;
+}
+
+.sec5-ms{
+  background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2800,c_fit,f_auto,q_auto:best/Model-S-Performance-Hero-Desktop-LHD');
+  width: 100%;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec5-text{
+ padding-top: 370px;
+}
+
+.w-35{
+  width: 40%;
+  padding: 15px;
+}
+
+.w-65{
+  width: 60%;
+  padding: 15px;
+}
+
+.sec6-p{
+  font-weight: 500 !important;
+  padding-top: 24px;
+}
+
+.sb1{
+  border: 2px solid #000;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+.sb1:hover{
+  background-color: black;
+  color: white;
+}
+.sb2{
+  font-weight: 600;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+.sb2:hover{
+  background-color: #22222121;
 }
